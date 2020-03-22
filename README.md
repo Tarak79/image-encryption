@@ -1,7 +1,5 @@
 # image-encryption
 
-## Setup
-
 - Encrypt the image.
 
 	`python encrypt_message.py`
