@@ -49,7 +49,7 @@ decrypted_msg = decrypt(private, encrypted_msg)
 
 req_img = decode_image(decrypted_msg)
 cv2.imwrite("decrypted_image.png", req_img)
-#print(np.shape(req_img))
-#plt.imshow(req_img)
-#plt.show()
+print(np.shape(req_img))
+plt.imshow(req_img)
+plt.show()
 
